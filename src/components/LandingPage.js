@@ -6,7 +6,14 @@ const LandingPage = () => {
 
     return (
         <div>
-            <Grid textAlign='center' style={{ height: '100vh' }} verticalAlign='middle'>
+            <div className="landing-header">
+                test
+                <br />
+                test
+                <br />
+                test
+            </div>
+            <Grid textAlign='center' style={{ height: '60vh' }} verticalAlign='middle'>
                 <Grid.Column style={{ maxWidth: 450 }}>
                     <Fragment>
                         <h1>Welcome</h1>
