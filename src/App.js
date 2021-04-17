@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-d
 import LandingPage from './components/LandingPage';
 import NotFoundPage from './components/NotFoundPage';
 import AboutMe from './components/AboutMe';
+import './App.css';
 
 function App() {
   return (
